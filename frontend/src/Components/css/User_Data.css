@@ -1,0 +1,48 @@
+ h1{
+    font-size: 2.5vw;
+    text-align: center;
+ }
+.container{
+ padding-top: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 30px;
+ margin: auto;
+ width: 80%;
+ padding-bottom: 20px;
+}
+.student-box{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #ffffff;
+    list-style: none;
+    width: 320px;
+    height: 200px;
+    border: 2px solid black;
+}
+.delete{
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px 25px ;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #03ee79;
+}
+
+
+@media only screen and (max-width:455px ) {
+  
+    h1{
+      font-size: 5vw;
+    }
+    .student-box{
+        margin-left: 20px;
+      width: 70vw;
+      height: 260px;
+    }
+    .box{
+        width: 60vw;
+      }
+  }
